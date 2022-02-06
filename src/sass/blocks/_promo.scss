@@ -1,7 +1,7 @@
 .promo {
 	min-height: 650px;
-	padding: 24px 0px 92px;
-	background: url('../../assets/img/promo_bg.webp') 0 0 no-repeat;
+	padding: 21px 0px 92px 0px;
+	background: url('../../assets/img/promo_bg.webp') 0 0/cover no-repeat;
 	&__wrapper {
 		display: flex;
 		flex-direction: column;

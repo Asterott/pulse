@@ -19,6 +19,12 @@
   flex: 1 1 auto;
 }
 
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #0d0d0d;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -47,6 +53,7 @@
   align-items: flex-end;
 }
 .header__phone {
+  margin: 0px 0px 8px 0px;
   font-size: 18px;
   font-weight: 700;
   color: #ffffff;
@@ -58,8 +65,8 @@
 
 .promo {
   min-height: 650px;
-  padding: 24px 0px 92px;
-  background: url("../../assets/img/promo_bg.webp") 0 0 no-repeat;
+  padding: 21px 0px 92px 0px;
+  background: url("../../assets/img/promo_bg.webp") 0 0/cover no-repeat;
 }
 .promo__wrapper {
   display: flex;
@@ -129,4 +136,42 @@
   font-weight: 500;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.advantages {
+  padding: 69px 0px 81px 0px;
+  background-color: #f6f6f6;
+}
+.advantages__title {
+  margin: 0px 0px 65px 0px;
+  text-align: center;
+}
+.advantages__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.advantages__item {
+  width: 242px;
+  color: #0d0d0d;
+  text-align: center;
+}
+.advantages__item img {
+  margin: 0px 0px 38px 0px;
+}
+.advantages__subtitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+.advantages__text {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+}
+.advantages__text a {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-decoration: underline;
+  color: #ff0000;
 }
