@@ -1,23 +1,53 @@
 .promo {
-    min-height: 650px;
-    padding: 24px 0px 92px;
-    background: url('../../assets/img/promo_bg.webp') center (center/cover) no-repeat;
-}
-.promo__wrapper {
-}
-.promo__title {
-}
-.promo__subtitle {
-}
-.promo__icons {
-}
-.promo__icon {
-}
-.promo__text {
-}
-.promo__btn {
-}
-.promo__button {
-}
-.promo__link {
+	min-height: 650px;
+	padding: 24px 0px 92px;
+	background: url('../../assets/img/promo_bg.webp') 0 0 no-repeat;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+	&__title {
+		font-size: 42px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #ffffff;
+		margin: 0px 0px 17px 0px;
+	}
+	&__subtitle {
+		font-size: 24px;
+		text-transform: uppercase;
+		color: #ffffff;
+		margin: 0px 0px 66px 0px;
+	}
+	&__icons {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 445px;
+		margin: 0px 0px 68px 0px;
+	}
+	&__icon {
+		width: 110px;
+		font-size: 14px;
+		line-height: 1.2;
+		color: #ffffff;
+		text-align: center;
+		img {
+			margin: 0px 0px 20px 0px;
+		}
+	}
+	&__btn {
+		font-size: 14px;
+		color: #ffffff;
+		button {
+			margin: 0px 0px 18px 0px;
+		}
+	}
+	&__link {
+		color: #ffffff;
+		a {
+			color: #ffffff;
+		}
+	}
 }
