@@ -18,9 +18,9 @@ gulp.task('server', function() {
 
 gulp.task('styles', function() {
     return gulp.src("src/sass/**/*.+(scss|sass)")
-		.pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
-		.pipe(autoprefixer({grid: true, overrideBrowserlist: ["last 3 versions"], cascade: true}))
-		.pipe(gulp.dest("src/css"))
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
+        .pipe(autoprefixer())
+        .pipe(gulp.dest("src/css"))
 		.pipe(cleanCSS({compatibility: 'ie8'}))
 		.pipe(rename({suffix: '.min', prefix: ''}))
 		.pipe(gulp.dest("src/css"))
