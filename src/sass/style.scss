@@ -4,8 +4,9 @@
 	font-weight: 500;
 }
 .container {
-	max-width: 945px;
+	max-width: 985px;
 	margin: 0 auto;
+    padding: 0px 20px;
 }
 .wrapper {
 	min-height: 100vh;
@@ -27,3 +28,5 @@
 @import 'blocks/promo';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+@import 'blocks/titles';
+@import 'blocks/media';
