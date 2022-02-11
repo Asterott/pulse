@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0px 0px 91px 0px;
+	margin: 0px 0px 91px;
 	&__logo {
 		width: 251px;
 		img {
@@ -25,7 +25,7 @@
 		align-items: flex-end;
 	}
 	&__phone {
-        margin: 0px 0px 8px 0px;
+        margin: 0px 0px 8px;
 		font-size: 18px;
 		font-weight: 700;
 		color: #ffffff;

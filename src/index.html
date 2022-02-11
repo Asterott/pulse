@@ -7,13 +7,14 @@
   <title>Pulse</title>
   <link rel="icon" href="assets/favicon.ico">
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
   <div class="wrapper">
     <main class="main">
-      <div class="promo">
+      <section class="promo">
         <div class="container">
           <header class="header">
             <a href="#" class="header__logo">
@@ -65,8 +66,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="advantages">
+      </section>
+      <section class="advantages">
         <div class="container">
           <h2 class="advantages__title title">НАШИ ПРЕИМУЩЕСТВА</h2>
           <div class="advantages__body">
@@ -106,7 +107,30 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="consultation">
+        <div class="container">
+          <h2 class="consultation__title title title_left">
+            Получите бесплатную консультацию<br>
+            по подбору пульсометра
+          </h2>
+          <div class="consultation__desc">
+            Просто заполните форму заявки<br> 
+            и мы перезвоним вам в течении 10 минут
+          </div>
+          <form action="#" class="consultation__feed-form feed-form">
+            <input type="text" name="name" required placeholder="Ваше имя">
+            <input type="tel" name="phone" required placeholder="Ваш телефон">
+            <input type="email" name="email" required placeholder="Ваш E-mail">
+            <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+          </form>
+        </div>
+      </section>
+      <section class="carousel">
+        <div class="container">
+
+        </div>
+      </section>
 
     </main>
     <footer class="footer">
@@ -131,6 +155,8 @@
       </div>
     </footer>
   </div>
-  <!-- <script src="js/index.js"></script> -->
+  
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 .promo {
 	min-height: 650px;
-	padding: 21px 0px 92px 0px;
+	padding: 21px 0px 92px;
 	background: url('../../assets/img/promo_bg.webp') 0 0/cover no-repeat;
 	&__wrapper {
 		display: flex;
@@ -12,20 +12,20 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		color: #ffffff;
-		margin: 0px 0px 17px 0px;
+		margin: 0px 0px 17px;
 	}
 	&__subtitle {
 		font-size: 24px;
 		text-transform: uppercase;
 		color: #ffffff;
-		margin: 0px 0px 66px 0px;
+		margin: 0px 0px 66px;
 	}
 	&__icons {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		width: 445px;
-		margin: 0px 0px 68px 0px;
+		margin: 0px 0px 68px;
 	}
 	&__icon {
 		width: 110px;
@@ -34,14 +34,14 @@
 		color: #ffffff;
 		text-align: center;
 		img {
-			margin: 0px 0px 20px 0px;
+			margin: 0px 0px 20px;
 		}
 	}
 	&__btn {
 		font-size: 14px;
 		color: #ffffff;
 		button {
-			margin: 0px 0px 18px 0px;
+			margin: 0px 0px 18px;
 		}
 	}
 	&__link {

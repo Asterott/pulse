@@ -1,5 +1,8 @@
+.advantages__title {
+	margin: 0px 0px 65px;
+}
 .advantages {
-	padding: 69px 0px 81px 0px;
+	padding: 69px 0px 81px;
 	background-color: #f6f6f6;
 	&__row {
 		display: flex;
@@ -11,7 +14,7 @@
 		color: #0d0d0d;
 		text-align: center;
 		img {
-			margin: 0px 0px 38px 0px;
+			margin: 0px 0px 38px;
 		}
 	}
 	&__subtitle {

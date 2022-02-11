@@ -1,0 +1,15 @@
+.consultation__title {
+	margin: 0px 0px 80px;
+}
+.consultation {
+	min-height: 680px;
+	padding: 100px 0px 92px;
+	background: url('../../assets/img/consultation_bg.webp') center (center/cover) no-repeat;
+	&__desc {
+		font-size: 20px;
+		line-height: 1.2;
+		font-weight: 500;
+		color: #ffffff;
+		margin: 0px 0px 36px;
+	}
+}
