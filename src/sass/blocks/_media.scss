@@ -1,3 +1,22 @@
+@media (max-width: 991px) {
+	.swiper {
+		&-wrapper {
+			margin: 0px 0px 35px;
+		}
+		&-arrow-left,
+		&-arrow-right {
+			display: none;
+		}
+		&-pagination {
+			display: block;
+			&-bullet {
+				width: 15px;
+				height: 15px;
+				background-color: $red-color;
+			}
+		}
+	}
+}
 @media (max-width: 767px) {
 	.header {
 		margin: 0px 0px 60px;
@@ -38,6 +57,14 @@
 	}
 	.title_left {
 		font-size: 24px;
+	}
+	.carousel {
+		padding: 50px 0px;
+	}
+	.swiper {
+		&-wrapper {
+			margin: 0px 0px 40px;
+		}
 	}
 }
 @media (max-width: 699px) {
@@ -112,6 +139,17 @@
 		&__desc {
 			font-size: 18px;
 			text-align: center;
+		}
+	}
+	.carousel {
+		padding: 30px 0px;
+	}
+	.swiper {
+		&-pagination {
+			&-bullet {
+				width: 10px;
+				height: 10px;
+			}
 		}
 	}
 }
