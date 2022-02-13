@@ -6,7 +6,7 @@
 .container {
 	max-width: 985px;
 	margin: 0 auto;
-    padding: 0px 20px;
+	padding: 0px 20px;
 }
 .wrapper {
 	min-height: 100vh;
@@ -26,4 +26,5 @@
 @import 'blocks/consultation';
 @import 'blocks/forms';
 @import 'blocks/carousel';
+@import 'blocks/catalog';
 @import 'blocks/media';
